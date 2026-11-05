@@ -6,7 +6,10 @@ const firebaseConfig = {
   messagingSenderId: "496346249920",
   appId: "1:496346249920:web:7059b65e1b20a79a984b25",
   measurementId: "G-6E5X1MPMM5"
+  
+};
+
   window.BALOOT_CONFIG = {
-  appName: "ديوانية البلوت",
+  appName: "نشرة البلوت",
   firebase: firebaseConfig
 };
