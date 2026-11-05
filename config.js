@@ -1,19 +1,9 @@
-/* ============================================================
-   إعدادات التطبيق — هذا الملف الوحيد اللي تعدّله
-   ============================================================
-   1) اسم التطبيق: اكتب الاسم اللي يعجبك (آخر كلمة تطلع بلون ذهبي)
-   2) إعدادات Firebase: انسخها من مشروعك في Firebase والصقها مكان القيم تحت
-      (Firebase Console ← Project settings ← Your apps ← Web app ← firebaseConfig)
-   ============================================================ */
-window.BALOOT_CONFIG = {
-  appName: "نشرة البلوت",
-
-  firebase: {
-    apiKey: "ضع-هنا",
-    authDomain: "ضع-هنا",
-    projectId: "ضع-هنا",
-    storageBucket: "ضع-هنا",
-    messagingSenderId: "ضع-هنا",
-    appId: "ضع-هنا"
-  }
+const firebaseConfig = {
+  apiKey: "AIzaSyBQkE9sdXQrTiRsRyJEv9GPTqFXR9Sbg5o",
+  authDomain: "baloot-aldiwanyah.firebaseapp.com",
+  projectId: "baloot-aldiwanyah",
+  storageBucket: "baloot-aldiwanyah.firebasestorage.app",
+  messagingSenderId: "496346249920",
+  appId: "1:496346249920:web:7059b65e1b20a79a984b25",
+  measurementId: "G-6E5X1MPMM5"
 };
